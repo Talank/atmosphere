@@ -17,4 +17,4 @@ jobs:
           java-version: '18'
           distribution: 'adopt'
       - name: Run the Maven verify phase
-        run: mvn clean install -DskipTests 
+        run: mvn clean test
